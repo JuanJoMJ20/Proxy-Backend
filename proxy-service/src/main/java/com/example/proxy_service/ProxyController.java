@@ -20,6 +20,11 @@ import java.util.stream.Collectors;
 public class ProxyController {
 
     private final RestTemplate restTemplate = new RestTemplate();
+    
+    @GetMapping("/")
+    public String index() {
+        return "<h1>Proxy Service is Running</h1><p>The observability engine is active. Visit /observability/logs to see the raw data.</p>";
+    }
 
     @Autowired
     private AuditLogRepository auditLogRepository;
