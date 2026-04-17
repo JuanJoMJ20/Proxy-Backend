@@ -1,0 +1,5 @@
+https://proxy-backend-production-3835.up.railway.app/
+
+Simular peticiones al servicio de Inventario: https://proxy-backend-production-3835.up.railway.app//api/inventory/items
+Simular peticiones al servicio de Órdenes: https://proxy-backend-production-3835.up.railway.app//api/orders/all
+Simular peticiones al servicio de Pagos: https://proxy-backend-production-3835.up.railway.app//api/payments/status
